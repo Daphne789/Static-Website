@@ -1,0 +1,100 @@
+/* customize bootstrap */
+
+body, a, .nav-link, table {
+    color: #19345e !important;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav button {
+    font-weight: 500;
+}
+
+.navbar-nav .active, 
+.navbar-nav .nav-link:hover {
+    color: #f47622 !important;
+}
+
+.btn-outline-orange {
+    border: 0.5px solid #f47622 !important;
+    color: #f47622 !important;
+    transition: 0.4s;
+}
+
+.btn-outline-orange:hover {
+    background-color: #f47622;
+    color: white !important;
+}
+
+.btn-orange {
+    background-color: #f47622 !important;
+    color: white !important;
+    transition: 0.4s;
+}
+
+.btn-orange:hover {
+    background-color: #e95d00 !important
+}
+
+.frame {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -92%;
+    left: -8%;
+    border: 8px solid #f47622;
+}
+
+.frame-blue {
+    border-color: #19345e;
+}
+
+.display-5, .display-4, .fw-600 {
+    font-weight: 600 !important;
+}
+
+.border-dashed {
+    border-bottom: 0.5px dashed gray;
+}
+
+footer, .bg-primer {
+    background-color: #19345e;
+}
+
+#home span {
+    color: #f47622 !important;
+}
+
+#banner {
+    background-color: #edf6ff;
+}
+
+#secAbout .bg-image {
+    background-image: url("../images/bg-people.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+#secAbout .bg-color {
+    background-color: #19345ece;
+}
+
+#secTeam {
+    background-image: url("../images/ornament_batik.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 30vh;
+}
+
+#secTeam .check {
+    text-decoration: none;
+}
+
+#widget .rounded-md {
+    border-radius: 30px;
+}
+
+#team tr {
+    margin-top: 10em !important;
+    margin-bottom: 10em !important;
+}
+

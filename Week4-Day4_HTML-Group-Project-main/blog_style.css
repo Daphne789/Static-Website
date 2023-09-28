@@ -1,0 +1,66 @@
+.navbar-nav .active, 
+.navbar-nav .nav-link:hover {
+    color: #f47622 !important;
+}
+.text-center{
+    font-family: 'Mulish', sans-serif;
+    font-size: 45px;
+    color: #19345E;
+}
+.header1{
+    font-family: 'Mulish Extrabold', sans-serif;
+    font-size: 50px;
+    color: #19345E;
+    text-align: left;
+    font-weight: 700;
+}
+.header2{
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #19345E;
+}
+.text-break{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #19345E;
+}
+h2 {
+    overflow: hidden;
+    text-align: center;
+} 
+h2:before,
+h2:after {
+    background-color: #F47522;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 2%;
+} 
+h2:before {
+    right: 0.5em;
+    margin-left: -50%;
+}  
+h2:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+.text{
+    font-size: 15px;
+    margin-top: 80px;
+}
+.text2{
+    color: white;
+}
+.text2:hover{
+    color: white;
+}
+.btn-orange:active {
+    background-color: #F47522; /* Your desired orange color */
+    color: white; /* Your desired text color */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    margin: 5px; /* Adjust the margin as needed */
+}
+
